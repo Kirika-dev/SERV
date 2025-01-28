@@ -1,0 +1,178 @@
+@import @/views/assets/css/main.sass
+
+@font-face 
+    font-family: 'ENF'
+    src: url('../fonts/13857.eot')
+    src: local("☺"), url('../fonts/13857.woff') format("woff"), url('../fonts/13857.ttf') format("truetype"), url('../fonts/13857.svg') format("svg")
+    font-weight: normal
+    font-style: normal
+    
+.container_cards 
+  display: flex
+  font-family: 'TTNorms-Regular'
+  align-items: center
+  justify-content: center
+  height: 100%
+  width: 100%
+  
+  
+  .rounding5 
+    @include fluid("border-radius", 5)
+  
+  
+  .card 
+    @include fluid("width", 670)
+    @include fluid("height", 365)
+    background: #fff
+    position: relative
+    overflow: hidden
+    box-shadow: 0px 0px 29px 2px #0000005c
+    &.lspd 
+      &:after 
+        background-color: #1E69BA
+        content: ""
+        position: absolute
+
+.army-card {
+  @include fluid("width", 670);
+  @include fluid("height", 365);
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 29px 2px #0000005c;
+  &:after {
+    background-color: #2E8B57;
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url('../army/images/army_icon.png');
+  }
+}
+.imgid {
+  background-image: url('../army/images/serial.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  @include fluid("width", 20);
+  @include fluid("height", 19);
+  @include fluid("margin", 5);
+}
+.right {
+  .img {
+    background-image: url('../army/images/usa.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    @include fluid("width", 73);
+    @include fluid("height", 30);
+  }
+}
+.pl3 .imgid {
+  background-image: url('../army/images/serial.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  @include fluid("width", 64);
+  @include fluid("height", 246);
+  @include fluid("margin", 5);
+}
+.img-usa {
+  background-image: url('../army/images/usa.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  @include fluid("width", 73);
+  @include fluid("height", 30);
+  @include fluid("margin-bottom", 7);
+  display: flex;
+}
+.card_army {
+  .right {
+    position: absolute;
+    @include fluid("right", 0);
+    @include fluid("width", 27);
+    bottom: 0;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003875;
+    color: #fff;
+    font-weight: bold;
+    z-index: 1;
+  }
+}
+    div 
+      &:nth-child(2) 
+        @include fluid("font-size", 22)
+        font-weight: bold
+        text-overflow: ellipsis
+        overflow: hidden
+        white-space: nowrap
+        @include fluid("max-width", 150)
+      
+
+      &:nth-child(3) 
+        background-image: url('../army/images/usa.png')
+        background-repeat: no-repeat
+        background-size: contain
+        background-position: center
+        @include fluid("width", 73)
+        @include fluid("height", 30)
+        @include fluid("margin-top", 3)
+        @include fluid("margin-bottom", 10)
+
+.content {
+  .ava {
+    @include fluid("padding-top", 21);
+    @include fluid("margin-right", 3);
+
+    div {
+      &:nth-child(2) {
+        @include fluid("font-size", 22);
+        font-weight: bold;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        @include fluid("max-width", 150);
+      }
+
+      &:nth-child(3) {
+        background-image: url('../army/images/usa.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        @include fluid("width", 73);
+        @include fluid("height", 30);
+        @include fluid("margin-top", 3);
+        @include fluid("margin-bottom", 10);
+      }
+    }
+  }
+}
+&:before {
+  background-image: url('../army/images/backgroud.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: "";
+  position: absolute;
+  @include fluid("width", 287);
+  @include fluid("height", 287);
+  @include fluid("right", 0);
+  @include fluid("left", 0);
+  margin: auto;
+  @include fluid("bottom", 26);
+}
+.serial {
+  background-image: url('../army/images/serial.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  @include fluid("width", 64);
+  @include fluid("height", 246);
+  position: absolute;
+  @include fluid("right", 27);
+  @include fluid("bottom", 15);
+}

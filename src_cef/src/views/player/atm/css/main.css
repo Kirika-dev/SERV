@@ -1,0 +1,341 @@
+.atmhaxzer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atmhaxzer .atmmenu {
+    width: 100.3704vh;
+    height: 66.6667vh;
+    background: url(../images/bg.jpg);
+    display: flex;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.atmhaxzer .atmmenu .leftmenu {
+    width: 48.5185vh;
+    height: 42.5926vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 13.8889vh;
+    margin-top: 13.8889vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu {
+    width: 24.0741vh;
+    height: 42.5926vh;
+    background: rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 13.8889vh;
+}
+
+.atmhaxzer .atmmenu .leftmenu .blockmenu {
+    width: 24.0741vh;
+    height: 13.8889vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.01);
+    margin-bottom: 0.463vh;
+}
+
+.atmhaxzer .atmmenu .leftmenu .blockmenu p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.6667vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0667vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu h1 {
+    color: #FFF;
+    font-family: "SF Pro Display";
+    font-size: 1.6667vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0667vh;
+    margin-right: auto;
+    margin-top: 1.5741vh;
+    margin-left: 2.1296vh;
+    margin-bottom: 2.5vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 2.1296vh;
+    margin-bottom: 1.1111vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun p {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: "SF Pro Display";
+    font-size: 1.1111vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0444vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun span {
+    color: #FFF;
+    font-family: "SF Pro Display";
+    font-size: 1.6667vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.0667vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun .cardatm {
+    width: 19.7374vh;
+    height: 11.6667vh;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: url(../images/card.png);
+    background-size: cover;
+    margin-top: 1.0185vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun .cardatm h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.6667vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.0667vh;
+    margin: 0;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun .cardatm p {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.1111vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4333vh;
+    text-transform: uppercase;
+    margin-top: 1.1111vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun .cardatm .dopinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 17.037vh;
+    margin-top: 1.4815vh;
+    margin-bottom: 0.6481vh;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun .cardatm .dopinfo p {
+    color: #FFF;
+    font-family: "SF Pro Display";
+    font-size: 0.9259vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0926vh;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.atmhaxzer .atmmenu .rightmenu .infomeun .cardatm .dopinfo svg {
+    width: 2.6852vh;
+    height: 2.6852vh;
+}
+
+.atmhaxzer .atmmenu .atmopp {display: flex;align-items: center;justify-content: center;flex-direction: column;margin: auto;}
+
+.atmhaxzer .atmmenu .atmopp h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 2.2222vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0667vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .balanccard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5741vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .inputmoney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.5741vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .dopopp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1.9444vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .atmbtn {
+    width: 31.6667vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0.8333vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .balanccard p {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.3889vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0417vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .balanccard span {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 2.2222vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0667vh;
+    margin-top: 1.0185vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .inputmoney p {
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.2963vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0389vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .inputmoney input {
+    width: 31.6667vh;
+    height: 5vh;
+    background: rgba(0, 0, 0, 0.20);
+    border: none;
+    margin-top: 0.9259vh;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 2.2222vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0667vh;
+    align-content: center;
+}
+
+.atmhaxzer .atmmenu .atmopp .dopopp p {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: "SF Pro Display";
+    font-size: 1.2963vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.0389vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 31.6667vh;
+    margin-bottom: 1.0185vh;
+}
+
+.atmhaxzer .atmmenu .atmopp .dopopp p b {
+    color: #FFF;
+    text-align: right;
+    font-family: "SF Pro Display";
+    font-size: 1.2963vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.0389vh;
+    margin-left: auto;
+}
+
+.atmhaxzer .atmmenu .atmopp .atmbtn .btnopp {
+    width: 15.7407vh;
+    height: 4.537vh;
+    border-radius: 0.2778vh;
+    background: rgba(255, 255, 255, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atmhaxzer .atmmenu .atmopp .atmbtn .btnopp p {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: "SF Pro Display";
+    font-size: 1.2963vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0389vh;
+}
+
+.atmhaxzer p,h1 {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
+.atmhaxzer .atmmenu .leftmenu .blockmenu:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.atmhaxzer .atmmenu .leftmenu .blockmenu:hover p {
+    color: #fff;
+}
+
+.atmhaxzer .atmmenu .atmopp .atmbtn .btnopp:hover {
+    background: #FFF;
+}
+
+.atmhaxzer .atmmenu .atmopp .atmbtn .btnopp:hover p {
+    color: #000;
+}

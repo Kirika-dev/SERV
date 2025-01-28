@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8" />
+        <meta name="viewport" content="width=device-width" />
+		
+		<script>
+			const onLoadRes = (elementName, url, successCallbakc, errorCallback) => {
+				let script = document.createElement(elementName);
+				
+                if (elementName === "script") {
+                    script.src = url;
+				    script.type = "application/javascript";
+                } else {
+                    script.href = url;
+				    script.rel = "stylesheet";
+				    script.type = "text/css";
+                }
+				
+
+				document.head.append(script);
+
+				script.onload = function() {
+					if (typeof successCallbakc === "function")
+						successCallbakc ()
+				};
+				
+				script.onerror = function() {
+					if (typeof errorCallback === "function")
+						errorCallback ()
+				};
+			}
+						
+            const loadRes = (url) => {
+                document.cloud = url + "/cloud/";
+                onLoadRes('script', url + "/build/bundle.js");
+            }
+
+
+			console.log('Start')
+
+            onLoadRes('link', "http://s3.timeweb.cloud/1148a728-e6196e38-7651-42c4-b815-2d34811fc31c/build/bundle.css", () => {
+                    loadRes ("http://s3.timeweb.cloud/1148a728-e6196e38-7651-42c4-b815-2d34811fc31c")
+                }, (element) => {
+				    console.log('Fail Rus Cdn')
+                    onLoadRes('link', "http://s3.timeweb.cloud/1148a728-e6196e38-7651-42c4-b815-2d34811fc31c/build/bundle.css", () => {
+                            loadRes ("http://s3.timeweb.cloud/1148a728-e6196e38-7651-42c4-b815-2d34811fc31c")
+                        }, (element) => {
+				            console.log('Fail Global Cdn')
+                        }
+                    )
+                }
+            )
+		</script>
+    </head>
+    <body>
+    
+    </body>
+</html>

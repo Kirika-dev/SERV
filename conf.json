@@ -1,0 +1,16 @@
+{
+	"maxplayers" : 100,
+	"name" : "[VOICE][1.1][RU]🤣(❁´◡`❁) Kirill eto chto?", 
+	"gamemode" : "freeroam",
+	"max-ping​" : 99999,
+	"min-fps​" : 1,
+	"encryption​" : false,
+	"voice-chat" : true,
+	"voice-chat-sample-rate": 48000,
+	"language": "ru",
+	"stream-distance" : 500.0,
+	"announce" : true,
+	"csharp" : "enabled",
+	"enable-nodejs": true,
+	"port": 22005
+}
